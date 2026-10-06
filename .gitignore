@@ -1,0 +1,36 @@
+# Browser profiles generated during local visual checks
+.chrome-headless-check/
+.chrome-profile/
+.edge-profile/
+
+# Local screenshots / generated check images
+*-check.png
+desktop-check.png
+desktop-edge-check.png
+intro-check.png
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.parcel-cache/
+.vite/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
